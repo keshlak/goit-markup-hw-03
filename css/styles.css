@@ -1,0 +1,184 @@
+:root {
+  --h-color: #212121;
+  --main-color: #757575;
+  --accent-color: #2196f3;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --radiobutton-background-color: #f5f4fa;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--h-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  color: var(--secondary-background-color);
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.nav .link:hover,
+.contact .link:hover,
+.nav .link:focus,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+
+.nav .link {
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.contact .link {
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-background-color);
+}
+
+.hero .link {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.hero .hero-link-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-background-color);
+}
+
+.features .feature-header {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features .feature-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.our-work .our-work-header,
+.team .team-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team .team-members {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.footer .logo,
+.footer .contact {
+  color: #ffffff;
+}
+
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+
+.adress-link {
+  color: var(--main-background-color);
+  font-style: normal;
+}
+
+.filter-btn {
+  color: var(--secondary-background-color);
+  background-color: var(--radiobutton-background-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--main-background-color);
+}
+
+.card {
+  width: 370px;
+  height: 404px;
+}
+.card-img,
+our-work-img {
+  width: 370px;
+  height: 294px;
+}
+
+.card .card-header {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.card .card-text {
+  font-size: 16px;
+  line-height: 1.9;
+}

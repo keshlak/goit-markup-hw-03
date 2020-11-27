@@ -5,36 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="header">
-        <!-- Menu nav -->
-        <nav>
+
+
+        <nav class="header-nav container">
             <a class="logo" href="https://keshlak.github.io/goit-markup-hw-02/"><span
                     class="logo-accent">Web</span>Studio</a>
             <ul class="nav">
-                <li><a class="link" href="./index.html">Студия </a></li>
-                <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="link" href="">Контакты</a></li>
+                <li class="item"><a class="link" href="./index.html">Студия </a></li>
+                <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+                <li class="item"><a class="link" href="">Контакты</a></li>
+            </ul>
+
+
+            <!-- Contacts -->
+
+            <ul class="contact">
+                <li class="item">
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
         </nav>
-        <!-- Contacts -->
-        <ul class="contact">
-            <li>
-                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-        </ul>
+
     </header>
     <main>
         <h1 class="portfolio-header"></h1>
@@ -133,18 +139,18 @@
         <a class="logo" href="https://keshlak.github.io/goit-markup-hw-02/"><span
                 class="logo-accent">Web</span>Studio</a>
         <address class="adress contact">
-            <ul>
-                <li>
+            <ul class="">
+                <li class="item">
                     <a class="adress-link"
                         href="https://www.google.com/maps/d/viewer?msa=0&mid=10uSM3H-mIU3GznYo2szRIEphczw&ll=50.42732700000001%2C30.538092&z=17"
                         target="blanc">г.
                         Киев, пр-т Леси Украинки, 26</a>
                 </li>
-                <li>
+                <li class="item">
                     <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
 
                 </li>
-                <li>
+                <li class="item">
                     <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>

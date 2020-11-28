@@ -34,6 +34,13 @@ ul {
   margin: 0;
 }
 
+/* .container {
+  min-width: 1200px;
+  padding-right: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+} */
+
 /* HEADER */
 
 .logo {
@@ -51,7 +58,6 @@ ul {
 .header {
   color: var(--secondary-background-color);
 
-  max-width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -158,6 +164,7 @@ ul {
 }
 
 .features .feature-header {
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;

@@ -48,6 +48,10 @@ ul {
 
 /* HEADER */
 
+.header .current {
+  color: var(--accent-color);
+}
+
 .logo {
   font-family: Raleway;
   display: block;
